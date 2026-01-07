@@ -1,6 +1,7 @@
+import Onboarding from "./pages/Onboarding";
 
 export default function App() {
-  return <div>
-    hello world
+  return <div className="overflow-hidden">
+    <Onboarding />
   </div>
 }
